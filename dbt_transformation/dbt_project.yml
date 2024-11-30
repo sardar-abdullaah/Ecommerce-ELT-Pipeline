@@ -41,6 +41,9 @@ models:
     staging:
       +materialized: table
       +schema: ecommerce_data_staging
+    target:
+      +materialized: table
+      +schema: ecommerce_data_target
     # mart:
     #   +materialized: table
     #   +schema: mart
