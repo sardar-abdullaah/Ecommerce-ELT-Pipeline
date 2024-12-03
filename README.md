@@ -1,15 +1,5 @@
-Welcome to your new dbt project!
+# Brazillian Ecommerce Data Engineering Project on GCP
 
-### Using the starter project
+## Introduction
 
-Try running the following commands:
-- dbt run
-- dbt test
-
-
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [dbt community](https://getdbt.com/community) to learn from other analytics engineers
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+For this project, I streamlined a data pipeline by integrating Google Drive, Google Cloud Platform (GCP), and Looker Studio. Using Python and Cloud Composer, I automated data ingestion from Google Drive to a Cloud Storage bucket and BigQuery. The workflow included transformations in dbt and visualizations in Looker Studio for end-to-end data insights.
